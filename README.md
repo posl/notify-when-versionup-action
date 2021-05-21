@@ -29,7 +29,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Notify When VersionUp action
-        uses: shin-shin-01/notify-when-versionup-action@1.0.0
+        uses: posl/notify-when-versionup-action@1.1.0
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           REPOSITORY: ${{ github.repository }}
